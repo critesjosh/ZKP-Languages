@@ -39,3 +39,22 @@ Graphs are provided to illustrate:
 - Number of repositories with more than 10 total issues for each language.
 - Percentage of Circom VS ZoKrates programs.
 - Comparison of the total number of repositories across all zkVMs VS Circom VS ZoKrates.
+
+## Repository Structure
+
+- **`graphs/`**  
+  Contains visualizations of the study in `.png` format.
+- **`metrics/`**  
+  Contains `.csv` files with detailed metrics for each language and zkVM.
+
+- **`src/`**  
+  Contains source files for data collection and analysis:
+  - `data_analyzer.ipynb`: Jupyter notebook for analysing and visualising data.
+  - `data_collector.py`: Python script for fetching data using the GitHub API.
+
+- **`README.md`**  
+  This file.
+
+- **`requirements.txt`**  
+  Lists Python dependencies required for running the project.
+

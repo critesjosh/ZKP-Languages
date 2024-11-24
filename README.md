@@ -31,3 +31,11 @@ This study covers the following ZKP languages:
 - **DSL**: Domain-Specific Language, designed specifically for writing ZKP programs.
 - **zkVM**: Zero-Knowledge Virtual Machine, a virtual machine designed to execute programs written in standard programming languages while generating zero-knowledge proofs of their correctness.
 
+## Visualizations
+
+Graphs are provided to illustrate:
+- Number of repositories with more than 1 star for each language.
+- Number of repositories updated after 1 January 2024 for each language.
+- Number of repositories with more than 10 total issues for each language.
+- Percentage of Circom VS ZoKrates programs.
+- Comparison of the total number of repositories across all zkVMs VS Circom VS ZoKrates.

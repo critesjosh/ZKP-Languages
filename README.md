@@ -1,6 +1,6 @@
 # Empirical Study of Zero-Knowledge Proof (ZKP) Languages
 
-This repository presents an empirical study of Zero-Knowledge Proof (ZKP) languages (including zkVMs), offering an overview of the most prominent ones. The study leverages the GitHub API to gather and analyse key metrics about repositories related to each language (e.g., number of stars, date of last update, etc.).
+This repository presents an empirical study of Zero-Knowledge Proof (ZKP) languages (including zkVMs), offering an overview of the most prominent ones. The study leverages the GitHub API to gather and analyze key metrics about repositories related to each language (e.g., number of stars, date of last update, etc.).
 
 ## Overview
 
@@ -44,7 +44,7 @@ Graphs are provided to illustrate:
 
 ## GitHub API Search Queries
 
-The study utilised GitHub's API to search for repositories. Below are the specific search queries used to identify relevant repositories for each language:
+The study utilized GitHub's API to search for repositories. Below are the specific search queries used to identify relevant repositories for each language:
 
 | Language         | GitHub Search Query              |
 |------------------|----------------------------------|
@@ -58,6 +58,7 @@ The study utilised GitHub's API to search for repositories. Below are the specif
 | **SNARKVM**      | `snarkvm`                       |
 
 ### Explanation of Queries:
+
 - **File-based Searches (`filename:`):**  
   Some queries, like `filename:.circom` for Circom and `filename:scarb.toml` for Cairo, target specific file extensions or package manager files unique to the language.
 - **Build Tools or SDKs:**  
@@ -69,7 +70,7 @@ The study utilised GitHub's API to search for repositories. Below are the specif
 
 The analysis revealed the following key insights:
 
-- **Circom** appears to be the most popular ZKP language, likely due to its strong performance and optimisation capabilities for building circuits.
+- **Circom** appears to be the most popular ZKP language, likely due to its strong performance and optimization capabilities for building circuits.
 - **Cairo** stands out as the most widely adopted zkVM, most likely because it was released early and powers *StarkNet*, a popular Layer-2 scaling solution on Ethereum.
 - **zkVMs** have seen great usage from 2024, surpassing Circom in growth trends, indicating a shift toward virtual machine-based ZKP solutions. This shift likely reflects the growing preference for zkVMs, which offer greater usability by enabling developers to write general-purpose programs rather than focusing on low-level circuit design.
 - **ZoKrates** shows very limited usage, likely due to its comparatively lower performance and stagnated development (with the last commit recorded in April 2024).
@@ -84,7 +85,7 @@ The analysis revealed the following key insights:
 - **`src/`**  
   Contains source files for data collection and analysis:
 
-  - `data_analyzer.ipynb`: Jupyter notebook for analysing and visualising data.
+  - `data_analyzer.ipynb`: Jupyter notebook for analysing and visualizing data.
   - `data_collector.py`: Python script for fetching data using the GitHub API.
   - `requirements.txt`: Lists Python dependencies required for running the project.
 
@@ -125,7 +126,7 @@ The analysis revealed the following key insights:
    python src/data_collector.py
    ```
 
-3. Run all cells in `data_analyzer.ipynb` to process and visualise the data:
+3. Run all cells in `data_analyzer.ipynb` to process and visualize the data:
    ```bash
    jupyter notebook src/data_analyzer.ipynb
    ```

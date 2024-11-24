@@ -56,3 +56,36 @@ Graphs are provided to illustrate:
 - **`README.md`**  
   This file.
 
+## Getting Started
+
+### Prerequisites
+- Python 3.8 or later
+- Git
+- Jupyter Notebook (for running `.ipynb` files)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ArmanKolozyan/ZKP-Languages.git
+   cd zkp-languages
+   ```
+2. Install dependencies:
+   ```bash
+   cd src
+   pip install -r requirements.txt
+   ```
+
+### Usage
+1. Fill in your GitHub API token:
+   - Generate a token at [GitHub Personal Access Tokens](https://github.com/settings/tokens).
+   - Add your token in the appropriate location in `data_collector.py`.
+
+2. Run `data_collector.py` to collect data. When prompted, enter the desired search term in the terminal:
+   ```bash
+   python src/data_collector.py
+   ```
+
+3. Run all cells in `data_analyzer.ipynb` to process and visualise the data:
+   ```bash
+   jupyter notebook src/data_analyzer.ipynb
+   ```

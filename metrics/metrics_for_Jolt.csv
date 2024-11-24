@@ -1,0 +1,36 @@
+Repository,Stars,Forks,Open Issues,Total Issues,Last Updated,Primary Language,Contributors
+a16z/jolt,681,146,43,505,2024-11-16,Rust,45
+lbc-team/Pioneer,220,55,102,338,2024-11-15,Python,21
+a16z/zkvm-benchmarks,57,15,1,3,2024-11-13,Rust,3
+Sindri-Labs/sindri-resources,16,7,3,90,2024-10-18,Go,9
+inference-labs-inc/omron-subnet,16,13,1,23,2024-11-07,Jupyter Notebook,6
+cysic-labs/jolt-b,7,1,0,0,2024-10-26,Rust,2
+stackrlabs/succinct-residency-exps,6,1,6,80,2024-11-10,Rust,3
+flyq/jolt_verifier_canister,4,0,0,0,2024-07-16,Rust,1
+sigma0-dev/charms,3,1,0,0,2024-11-15,Rust,1
+Marky-Shi/zk_notes,3,0,0,5,2024-11-11,,1
+viniciusthiengo/AdsAppJolt,3,1,0,0,2023-04-03,Java,1
+Xor0v0/ZK-Puzzle-Writeups,2,0,0,0,2024-10-15,,2
+Nuffle-Labs/near-zk-light-client-jolt,2,0,0,0,2024-06-14,Rust,1
+argumentcomputer/zkvm-benchmarks,1,0,0,3,2024-11-14,Rust,2
+OpacityLabs/jolt-react-native,1,0,0,0,2024-07-30,Rust,1
+NebraZKP/test-zkvm,1,2,0,0,2024-08-02,Rust,1
+flyq/jolt_expand,1,0,0,0,2024-05-06,Rust,1
+doutv/jolt-demo,1,0,0,0,2024-05-05,Rust,1
+sausaging/jugalbandi,1,3,3,6,2024-05-12,Rust,2
+lita-xyz/benchmarks,1,2,2,6,2024-11-06,C,2
+larry-lime/zk-benchmark2,0,0,0,0,2024-11-02,Rust,3
+banr1/forked-jolt,0,0,0,0,2024-10-04,Rust,42
+yasuhide0802/omicron-supernova,0,0,0,0,2024-10-05,Jupyter Notebook,5
+tpai/unity-tutor,0,0,0,0,2021-12-24,,1
+OpacityLabs/jolt-eddsa,0,0,0,0,2024-04-12,Rust,1
+kwancarl/acl2-jolt,0,0,0,0,2024-10-12,Rust,2
+gnosisguild/pove,0,0,0,0,2024-08-12,Rust,2
+Marky-Shi/jolt_example,0,0,0,0,2024-09-27,Rust,1
+fibonhack/MOCA-2024-finals-challs,0,0,0,0,2024-09-23,Jupyter Notebook,1
+OpacityLabs/jolt-playground,0,1,0,0,2024-04-11,Rust,1
+fermah-xyz/prover_examples,0,1,0,0,2024-10-08,Rust,1
+fmhall/chess-program,0,0,0,0,2024-05-02,Rust,1
+guelowrd/zik-zak-zoo-JOLT,0,0,0,0,2024-09-16,Rust,1
+WillPapper/zkvm-uuid-generation,0,0,0,4,2024-05-12,Rust,1
+khandar-william/dynamic-link-jolt,0,0,0,0,2024-10-23,Rust,1

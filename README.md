@@ -1,4 +1,5 @@
 # Empirical Study of Zero-Knowledge Proof (ZKP) Languages
+
 This repository presents an empirical study of Zero-Knowledge Proof (ZKP) languages (including zkVMs), offering an overview of the most prominent ones. The study leverages the GitHub API to gather and analyse key metrics about repositories related to each language (e.g., number of stars, date of last update, etc.).
 
 ## Overview
@@ -6,10 +7,10 @@ This repository presents an empirical study of Zero-Knowledge Proof (ZKP) langua
 This repository includes:
 
 - A quantitative analysis of repositories for many ZKP languages using metrics such as:
-    - Number of stars
-    - Number of open issues
-    - Date of last update
-    - Number of contributors
+  - Number of stars
+  - Number of open issues
+  - Date of last update
+  - Number of contributors
 - Visualizations to highlight interesting trends.
 - All code used for data collection and visualization.
 
@@ -17,15 +18,15 @@ This repository includes:
 
 This study covers the following ZKP languages:
 
-| Name          | Type       |
-|---------------|------------|
-| **Circom**    | HDL        |
-| **ZoKrates**  | DSL        |
-| **Cairo**     | DSL        |
-| **Nexus VM**  | zkVM       |
-| **RISC Zero** | zkVM       |
-| **snarkVM**   | zkVM       |
-| **SP1**       | zkVM       |
+| Name          | Type |
+| ------------- | ---- |
+| **Circom**    | HDL  |
+| **ZoKrates**  | DSL  |
+| **Cairo**     | DSL  |
+| **Nexus VM**  | zkVM |
+| **RISC Zero** | zkVM |
+| **snarkVM**   | zkVM |
+| **SP1**       | zkVM |
 
 - **HDL**: Hardware Description Language, used for circuit descriptions.
 - **DSL**: Domain-Specific Language, designed specifically for writing ZKP programs.
@@ -34,11 +35,21 @@ This study covers the following ZKP languages:
 ## Visualizations
 
 Graphs are provided to illustrate:
+
 - Number of repositories with more than 1 star for each language.
 - Number of repositories updated after 1 January 2024 for each language.
 - Number of repositories with more than 10 total issues for each language.
 - Percentage of Circom VS ZoKrates programs.
 - Comparison of the total number of repositories across all zkVMs VS Circom VS ZoKrates.
+
+## Results
+
+The analysis revealed the following key insights:
+
+- **Circom** appears to be the most popular ZKP language, likely due to its strong performance and optimisation capabilities for building circuits.
+- **Cairo** stands out as the most widely adopted zkVM, most likely because it was released early and powers *StarkNet*, a popular Layer-2 scaling solution on Ethereum.
+- **zkVMs** have seen great usage from 2024, surpassing Circom in growth trends, indicating a shift toward virtual machine-based ZKP solutions. This shift likely reflects the growing preference for zkVMs, which offer greater usability by enabling developers to write general-purpose programs rather than focusing on low-level circuit design.
+- **ZoKrates** shows very limited usage, likely due to its comparatively lower performance and stagnated development (with the last commit recorded in April 2024).
 
 ## Repository Structure
 
@@ -49,6 +60,7 @@ Graphs are provided to illustrate:
 
 - **`src/`**  
   Contains source files for data collection and analysis:
+
   - `data_analyzer.ipynb`: Jupyter notebook for analysing and visualising data.
   - `data_collector.py`: Python script for fetching data using the GitHub API.
   - `requirements.txt`: Lists Python dependencies required for running the project.
@@ -59,11 +71,13 @@ Graphs are provided to illustrate:
 ## Getting Started
 
 ### Prerequisites
+
 - Python 3.8 or later
 - Git
 - Jupyter Notebook (for running `.ipynb` files)
 
 ### Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/ArmanKolozyan/ZKP-Languages.git
@@ -76,11 +90,14 @@ Graphs are provided to illustrate:
    ```
 
 ### Usage
+
 1. Fill in your GitHub API token:
+
    - Generate a token at [GitHub Personal Access Tokens](https://github.com/settings/tokens).
    - Add your token in the appropriate location in `data_collector.py`.
 
 2. Run `data_collector.py` to collect data. When prompted, enter the desired search term in the terminal:
+
    ```bash
    python src/data_collector.py
    ```
@@ -89,3 +106,7 @@ Graphs are provided to illustrate:
    ```bash
    jupyter notebook src/data_analyzer.ipynb
    ```
+
+## Contributing
+
+Contributions are welcome! Please create an issue or submit a pull request if you have ideas to improve the project.

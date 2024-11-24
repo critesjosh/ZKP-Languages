@@ -133,3 +133,11 @@ The analysis revealed the following key insights:
 ## Contributing
 
 Contributions are welcome! Please create an issue or submit a pull request if you have ideas to improve the project.
+
+## TODO
+
+- [ ] Support more languages (e.g., Leo, Zinc, Noir).  
+- [ ] Add more details to the languages table.  
+- [ ] Analyze issues of top 5 repositories for each language.  
+- [ ] Manually clean the `.csv` files.  
+- [ ] Add more conclusions to the results.  

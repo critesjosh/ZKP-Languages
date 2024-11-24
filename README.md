@@ -42,6 +42,29 @@ Graphs are provided to illustrate:
 - Percentage of Circom VS ZoKrates programs.
 - Comparison of the total number of repositories across all zkVMs VS Circom VS ZoKrates.
 
+## GitHub API Search Queries
+
+The study utilised GitHub's API to search for repositories. Below are the specific search queries used to identify relevant repositories for each language:
+
+| Language         | GitHub Search Query              |
+|------------------|----------------------------------|
+| **Circom**       | `filename:.circom`              |
+| **Cairo**        | `filename:scarb.toml`           |
+| **RISC Zero**    | `risc0-build`                   |
+| **Jolt**         | `jolt-sdk`                      |
+| **Nexus**        | `nexus_rt`                      |
+| **SP1**          | `SP1_zkvm`                      |
+| **ZoKrates**     | `filename:.zok`                 |
+| **SNARKVM**      | `snarkvm`                       |
+
+### Explanation of Queries:
+- **File-based Searches (`filename:`):**  
+  Some queries, like `filename:.circom` for Circom and `filename:scarb.toml` for Cairo, target specific file extensions or package manager files unique to the language.
+- **Build Tools or SDKs:**  
+  Queries such as `risc0-build`, `jolt-sdk`, and `nexus_rt` focus on build tools or SDKs that are central to these zkVMs.
+- **zkVM Identifiers:**  
+  For zkVMs like SP1 and SNARKVM, the queries target unique identifiers (`SP1_zkvm` and `snarkvm`) associated with these projects.
+
 ## Results
 
 The analysis revealed the following key insights:
@@ -56,7 +79,7 @@ The analysis revealed the following key insights:
 - **`graphs/`**  
   Contains visualizations of the study in `.png` format.
 - **`metrics/`**  
-  Contains `.csv` files with detailed metrics for each language and zkVM.
+  Contains `.csv` files with detailed metrics for each language.
 
 - **`src/`**  
   Contains source files for data collection and analysis:

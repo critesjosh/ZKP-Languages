@@ -13,3 +13,21 @@ This repository includes:
 - Visualizations to highlight interesting trends.
 - All code used for data collection and visualization.
 
+## Studied ZKP Languages
+
+This study covers the following ZKP languages:
+
+| Name          | Type       |
+|---------------|------------|
+| **Circom**    | HDL        |
+| **ZoKrates**  | DSL        |
+| **Cairo**     | DSL        |
+| **Nexus VM**  | zkVM       |
+| **RISC Zero** | zkVM       |
+| **snarkVM**   | zkVM       |
+| **SP1**       | zkVM       |
+
+- **HDL**: Hardware Description Language, used for circuit descriptions.
+- **DSL**: Domain-Specific Language, designed specifically for writing ZKP programs.
+- **zkVM**: Zero-Knowledge Virtual Machine, a virtual machine designed to execute programs written in standard programming languages while generating zero-knowledge proofs of their correctness.
+

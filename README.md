@@ -51,10 +51,8 @@ Graphs are provided to illustrate:
   Contains source files for data collection and analysis:
   - `data_analyzer.ipynb`: Jupyter notebook for analysing and visualising data.
   - `data_collector.py`: Python script for fetching data using the GitHub API.
+  - `requirements.txt`: Lists Python dependencies required for running the project.
 
 - **`README.md`**  
   This file.
-
-- **`requirements.txt`**  
-  Lists Python dependencies required for running the project.
 

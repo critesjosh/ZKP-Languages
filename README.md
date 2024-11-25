@@ -141,4 +141,5 @@ Contributions are welcome! Please create an issue or submit a pull request if yo
 - [ ] Add more details to the languages table.  
 - [ ] Analyze issues of top 5 repositories for each language.  
 - [ ] Manually clean the `.csv` files.  
-- [ ] Add more conclusions to the results.  
+- [ ] Add more conclusions to the results.
+- [ ] Conduct a historical analysis: e.g., comparing number of zkVM repositories to Circom repositories over the years.

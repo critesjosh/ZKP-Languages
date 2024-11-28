@@ -39,8 +39,8 @@ Graphs are provided to illustrate:
 - Number of repositories with more than 1 star for each language.
 - Number of repositories updated after 1 January 2024 for each language.
 - Number of repositories with more than 10 total issues for each language.
-- Percentage of Circom VS ZoKrates programs.
-- Comparison of the total number of repositories across all zkVMs VS Circom VS ZoKrates.
+- Percentage of Circom vs. ZoKrates programs.
+- Comparison of the total number of repositories across all zkVMs vs. Circom vs. ZoKrates.
 
 ## GitHub API Search Queries
 
@@ -137,9 +137,12 @@ Contributions are welcome! Please create an issue or submit a pull request if yo
 
 ## TODO
 
-- [ ] Support more languages (e.g., Leo, Zinc, Noir).  
+- [ ] Support more languages (e.g., Leo, Zinc, Noir, Halo2).  
 - [ ] Add more details to the languages table.  
-- [ ] Analyze issues of top 5 repositories for each language.  
+- [ ] Manually analyze GitHub issues of the top 5 repositories for each language.  
 - [ ] Manually clean the `.csv` files.  
 - [ ] Add more conclusions to the results.
 - [ ] Conduct a historical analysis: e.g., comparing number of zkVM repositories to Circom repositories over the years.
+- [ ] Distinguish between the 2 use cases of Cairo (writing smart contracts vs. proof-related applications).
+- [ ] Explore GitHub’s dependency tracking feature (e.g., https://github.com/risc0/risc0/network/dependents).
+- [ ] Design a front-end dashboard for improved data visualization.

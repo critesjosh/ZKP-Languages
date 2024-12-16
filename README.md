@@ -51,7 +51,7 @@ The study utilized GitHub's API to search for repositories. Below are the specif
 |------------------|---------------------------------|
 | **Circom**       | `filename:.circom`              |
 | **ZoKrates**     | `filename:.zok`                 |
-| **Noir**         | `nargo.toml`                    |
+| **Noir**         | `filename:nargo.toml`           |
 | **Cairo**        | `filename:scarb.toml`           |
 | **Nexus VM**     | `nexus_rt`                      |
 | **RISC Zero**    | `risc0-build`                   |

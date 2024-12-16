@@ -22,6 +22,7 @@ This study covers the following ZKP languages:
 | ------------- | ---- |
 | **Circom**    | HDL  |
 | **ZoKrates**  | DSL  |
+| **Noir**      | DSL  |
 | **Cairo**     | DSL  |
 | **Nexus VM**  | zkVM |
 | **RISC Zero** | zkVM |
@@ -39,30 +40,30 @@ Graphs are provided to illustrate:
 - Number of repositories with more than 1 star for each language.
 - Number of repositories updated after 1 January 2024 for each language.
 - Number of repositories with more than 10 total issues for each language.
-- Percentage of Circom vs. ZoKrates programs.
-- Comparison of the total number of repositories across all zkVMs vs. Circom vs. ZoKrates.
+- Percentage of Circom VS ZoKrates VS Noir programs.
+- Comparison of the total number of repositories across all zkVMs VS Circom.
 
 ## GitHub API Search Queries
 
 The study utilized GitHub's API to search for repositories. Below are the specific search queries used to identify relevant repositories for each language:
 
-| Language         | GitHub Search Query              |
-|------------------|----------------------------------|
+| Language         | GitHub Search Query             |
+|------------------|---------------------------------|
 | **Circom**       | `filename:.circom`              |
-| **Cairo**        | `filename:scarb.toml`           |
-| **RISC Zero**    | `risc0-build`                   |
-| **Jolt**         | `jolt-sdk`                      |
-| **Nexus**        | `nexus_rt`                      |
-| **SP1**          | `SP1_zkvm`                      |
 | **ZoKrates**     | `filename:.zok`                 |
-| **SNARKVM**      | `snarkvm`                       |
+| **Noir**         | `nargo.toml`                    |
+| **Cairo**        | `filename:scarb.toml`           |
+| **Nexus VM**     | `nexus_rt`                      |
+| **RISC Zero**    | `risc0-build`                   |
+| **snarkVM**      | `snarkvm`                       |
+| **SP1**          | `SP1_zkvm`                      |
 
 ### Explanation of Queries:
 
 - **File-based Searches (`filename:`):**  
   Some queries, like `filename:.circom` for Circom and `filename:scarb.toml` for Cairo, target specific file extensions or package manager files unique to the language.
 - **Build Tools or SDKs:**  
-  Queries such as `risc0-build`, `jolt-sdk`, and `nexus_rt` focus on build tools or SDKs that are central to these zkVMs.
+  Queries such as `risc0-build`  and `nexus_rt` focus on build tools or SDKs that are central to these zkVMs.
 - **zkVM Identifiers:**  
   For zkVMs like SP1 and SNARKVM, the queries target unique identifiers (`SP1_zkvm` and `snarkvm`) associated with these projects.
 

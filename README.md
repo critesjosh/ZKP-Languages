@@ -138,7 +138,11 @@ Contributions are welcome! Please create an issue or submit a pull request if yo
 
 ## TODO
 
-- [ ] Support more languages (e.g., Leo, Zinc, Noir, Halo2).  
+- [ ] Support more ZKP languages 
+  - [x] Noir
+  - [ ] Leo
+  - [ ] Zinc
+  - [ ] Halo2
 - [ ] Add more details to the languages table.  
 - [ ] Manually analyze GitHub issues of the top 5 repositories for each language.  
 - [ ] Manually clean the `.csv` files.  

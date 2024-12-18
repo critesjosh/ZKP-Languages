@@ -143,7 +143,8 @@ Contributions are welcome! Please create an issue or submit a pull request if yo
 
 - [ ] Support more ZKP languages 
   - [x] Noir
-  - [ ] Leo
+  - [x] Leo
+  - [x] Jolt zkVM
   - [ ] Zinc
   - [ ] Halo2
 - [ ] Add more details to the languages table.  

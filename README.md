@@ -29,6 +29,7 @@ This study covers the following ZKP languages:
 | **RISC Zero** | zkVM |
 | **snarkVM**   | zkVM |
 | **SP1**       | zkVM |
+| **Jolt**      | zkVM |
 
 - **HDL**: Hardware Description Language, used for circuit descriptions.
 - **DSL**: Domain-Specific Language, designed specifically for writing ZKP programs.

@@ -59,6 +59,7 @@ The study utilized GitHub's API to search for repositories. Below are the specif
 | **RISC Zero**    | `risc0-build`                   |
 | **snarkVM**      | `snarkvm`                       |
 | **SP1**          | `SP1_zkvm`                      |
+| **Jolt**         | `jolt-sdk`                      |
 
 ### Explanation of Queries:
 

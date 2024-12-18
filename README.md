@@ -24,6 +24,7 @@ This study covers the following ZKP languages:
 | **ZoKrates**  | DSL  |
 | **Noir**      | DSL  |
 | **Cairo**     | DSL  |
+| **Leo**       | DSL  |
 | **Nexus VM**  | zkVM |
 | **RISC Zero** | zkVM |
 | **snarkVM**   | zkVM |
@@ -53,6 +54,7 @@ The study utilized GitHub's API to search for repositories. Below are the specif
 | **ZoKrates**     | `filename:.zok`                 |
 | **Noir**         | `filename:nargo.toml`           |
 | **Cairo**        | `filename:scarb.toml`           |
+| **Leo**          | `filename:.leo`                 |
 | **Nexus VM**     | `nexus_rt`                      |
 | **RISC Zero**    | `risc0-build`                   |
 | **snarkVM**      | `snarkvm`                       |

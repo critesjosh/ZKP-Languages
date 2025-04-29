@@ -46,7 +46,7 @@ def get_number_of_contributors(repo_name):
 #   instead of 'path'! 
 #   For more details, see: https://github.com/orgs/community/discussions/64618#discussioncomment-8473570
 def analyse_repositories(search_term):
-    url = f"{GITHUB_API_URL}/search/code?q={search_term}&per_page=1"
+    url = f"{GITHUB_API_URL}/search/code?q={search_term}&per_page=50"
     repos = [] # result
     repo_names_set = set()  # to keep track of unique repository names
     page = 0
